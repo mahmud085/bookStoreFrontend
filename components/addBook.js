@@ -24,24 +24,14 @@ var addBook = React.createClass({
 				payload: response.data
 			})
 			console.log("Store at add state ",store.getState());
-			this.clearForm();
-			//location.href = '/';
+			location.href = '/';
 		})
 		.catch(function(err){
 			console.log("Eroor =",err);
 		})
 
 	},
-	clearForm : function(){
-		console.log("here");
-		this.refs.name.value = " ",
-		this.refs.writer.value = " ",
-		this.refs.publications.value = " ",
-		this.refs.category.value = "",
-		this.refs.price.value = "",
-		this.refs.releaseDate.value = "",
-		this.refs.edition.value = ""
-	},
+	
 	render(){
 		    var style = {
       color: 'red',
