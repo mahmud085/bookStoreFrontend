@@ -1,13 +1,8 @@
-# Node Todo App
+# React Sample Book Store App
 
-It's just a boilerplate to start building app with Node and MongoDB.
+It's just a boilerplate to start building app with React.
 
-Node provides the RESTful API.MongoDB works as a Database.
-
-## Requirements
-
-- [Node and npm](http://nodejs.org)
-- MongoDB: Download and install MongoDB. Make sure you have your own local MongoDB database running on your PC
+React serves as a frontend and access Node api
 
 ## Installation
 
